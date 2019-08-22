@@ -1,0 +1,49 @@
+
+//Display series of numbers from 1-10
+// for, while, do while
+/*
+    Syntax
+    for (init;condition;inc/dec)
+    {
+        body of code to execute if true
+    }
+    init -> x=1
+    condition -> how long will the loop execute
+    inc -> add a value to the variable (x)
+        a=a+1   a++
+    dec -> Subtract a value
+        a=a-1   a--
+
+1. start
+2. init  (declaring the variable)
+    i=0;
+        (1)  (2)  (4)
+3. for (i=1;i<=10;i++)
+
+        i       i<=10   print i     i++
+        1       t       1           2
+                t       2           3
+                t       3           4
+                t       4           5
+                t       5           6
+                t       6           7
+                t       7           8
+                t       8           9
+                t       9           10
+                t       10          11
+                f
+                    
+
+    print i (3)
+4. stop
+*/
+public class Sample6 {
+    public static void main(String[] args) {
+        int i;
+        System.out.println("Print numbers 1 - 10\n");
+            for (i=1;i<=10;i++)
+            {
+                System.out.println(" "+i);
+            }
+    }
+}
