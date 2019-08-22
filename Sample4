@@ -1,0 +1,15 @@
+
+public class Sample4 {
+    public static void main(String[] args) {
+        int a = 7;
+        int b = 5;
+        if (a>b)    //false
+        {           //execute this part if true (evaluation)
+            System.out.println("A > B");
+        }
+        else
+        {            //execute this part if false (evaluation)
+            System.out.println("B > A");
+        }
+    }
+}
