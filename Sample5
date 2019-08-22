@@ -1,0 +1,35 @@
+//create a program to determine if a number is positive or negative
+/*
+1.  start
+2.  init 
+    a=0;
+3.  input a
+4.  determine if  number is positive
+    if (a>0)  (first condition)
+        output -> number is positive
+    else if (a<0)  (2nd condition)
+        output -> number is negative
+    else
+        output -> Number is zero
+5.  stop
+*/
+import java.util.Scanner;
+public class Sample5 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("input a number ");
+        int x = in.nextInt();
+        if (x>0)
+        {
+            System.out.println("number is positive");
+        }
+        else if (x<0) 
+        {
+            System.out.println("number is negative");
+        }
+        else
+        {
+            System.out.println("Number is zero");
+        }       
+    }
+}
