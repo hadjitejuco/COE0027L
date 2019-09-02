@@ -1,0 +1,25 @@
+//Nested if Sample
+
+public class Sample15 {
+    public static void main(String[] args) {
+        int a=0;  //the number is zero
+        if (a>0){
+            //0-10
+            if (a<=10){
+                System.out.println("a --> 0 to 10");
+            }     
+            //11-20
+            if (a>10 && a<=20){
+                System.out.println("a --> 11 to 20");
+            }
+            //21-above
+            if (a>20){
+                System.out.println("a --> is greater than 20");
+            }
+        }else if (a<0) {
+            System.out.println("the number is negative");
+        }else {
+            System.out.println("the number is zero");
+        }
+    }
+}
