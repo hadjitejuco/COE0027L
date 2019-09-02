@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Sample10 {
+    
+    public static void main(String[] args) {
+        Scanner console = new Scanner (System.in);
+        String firstname;
+        String lastname;
+        int age;
+        double weight;
+        
+        System.out.println("Enter Firstname, latname"
+            + " age, and weight separateded "
+            + " by space ");
+        
+        firstname = console.next();
+        lastname = console.next();
+        age = console.nextInt();
+        weight = console.nextDouble();
+        System.out.println("Name "+ firstname+ " " +lastname);
+        System.out.println("Age "+age);
+        System.out.println("Weight "+weight);
+    }
+}
